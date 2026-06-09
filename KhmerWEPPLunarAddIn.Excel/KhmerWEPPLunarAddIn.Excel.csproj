@@ -21,11 +21,11 @@
     <ProjectTypeGuids>{BAA0C2D2-18E2-41B9-852F-F413020CAA33};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{329E10DE-D353-44B1-B85A-980F522C7F88}</ProjectGuid>
+    <ProjectGuid>{E57EAF57-8273-44EB-AF5D-4B89AC3C590D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
-    <RootNamespace>KhmerWEPPLunarAddIn</RootNamespace>
-    <AssemblyName>KhmerWEPPLunarAddIn</AssemblyName>
+    <RootNamespace>KhmerWEPPLunarAddIn.Excel</RootNamespace>
+    <AssemblyName>KhmerWEPPLunarAddIn.Excel</AssemblyName>
     <LoadBehavior>3</LoadBehavior>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <DefineConstants>VSTO40</DefineConstants>
@@ -45,7 +45,7 @@
       OfficeApplication
         Add-in host application
     -->
-    <OfficeApplication>Word</OfficeApplication>
+    <OfficeApplication>Excel</OfficeApplication>
   </PropertyGroup>
   <!--
     This section defines properties that are set when the "Debug" configuration is selected.
@@ -124,7 +124,7 @@
     <Reference Include="Microsoft.Office.Tools.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <Private>False</Private>
     </Reference>
-    <Reference Include="Microsoft.Office.Tools.Word, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+    <Reference Include="Microsoft.Office.Tools.Excel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <Private>False</Private>
     </Reference>
   </ItemGroup>
@@ -140,7 +140,7 @@
           <Private>False</Private>
           <EmbedInteropTypes>true</EmbedInteropTypes>
         </Reference>
-        <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+        <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
           <Private>False</Private>
           <EmbedInteropTypes>true</EmbedInteropTypes>
         </Reference>
@@ -157,10 +157,10 @@
           <Isolated>False</Isolated>
           <EmbedInteropTypes>true</EmbedInteropTypes>
         </COMReference>
-        <COMReference Include="Microsoft.Office.Interop.Word">
-          <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
-          <VersionMajor>8</VersionMajor>
-          <VersionMinor>6</VersionMinor>
+        <COMReference Include="Microsoft.Office.Interop.Excel">
+          <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+          <VersionMajor>1</VersionMajor>
+          <VersionMinor>8</VersionMinor>
           <Lcid>0</Lcid>
           <WrapperTool>tlbimp</WrapperTool>
           <Isolated>False</Isolated>
@@ -185,22 +185,10 @@
     can be found.
   -->
   <ItemGroup>
+    <Compile Include="ExcelBridge.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="WEPP_Ribbon.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="WEPP_Ribbon.Designer.cs">
-      <DependentUpon>WEPP_Ribbon.cs</DependentUpon>
-    </Compile>
-    <Compile Include="WEPP_Sidepane.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="WEPP_Sidepane.Designer.cs">
-      <DependentUpon>WEPP_Sidepane.cs</DependentUpon>
-    </Compile>
-    <Compile Include="WordBridge.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -209,15 +197,8 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="WEPP_Ribbon.resx">
-      <DependentUpon>WEPP_Ribbon.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="WEPP_Sidepane.resx">
-      <DependentUpon>WEPP_Sidepane.cs</DependentUpon>
-    </EmbeddedResource>
-    <None Include="KhmerWEPPLunarAddIn_TemporaryKey.pfx" />
+    <None Include="KhmerWEPPLunarAddIn.Excel_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -238,13 +219,7 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\icon-80.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Resources\index.html" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="KhmerWEPPLunarAddIn.Shared\KhmerWEPPLunarAddIn.Shared.csproj">
+    <ProjectReference Include="..\KhmerWEPPLunarAddIn.Shared\KhmerWEPPLunarAddIn.Shared.csproj">
       <Project>{67c21c19-1e7c-4dd1-b0ee-50c900720692}</Project>
       <Name>KhmerWEPPLunarAddIn.Shared</Name>
     </ProjectReference>
@@ -258,10 +233,10 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>KhmerWEPPLunarAddIn_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>KhmerWEPPLunarAddIn.Excel_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>60DED76CD80813306F941772402D5DC6F66283A2</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>7B3296C56A2BC6A1F89D6C750832A76EB9C4A6F9</ManifestCertificateThumbprint>
   </PropertyGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- Include additional build rules for an Office application add-in. -->
@@ -270,8 +245,8 @@
   <ProjectExtensions>
     <VisualStudio>
       <FlavorProperties GUID="{BAA0C2D2-18E2-41B9-852F-F413020CAA33}">
-        <ProjectProperties HostName="Word" HostPackage="{29A7B9D7-A7F1-4328-8EF0-6B2D1A56B2C1}" OfficeVersion="15.0" VstxVersion="4.0" ApplicationType="Word" Language="cs" TemplatesPath="" DebugInfoExeName="#Software\Microsoft\Office\16.0\Word\InstallRoot\Path#WINWORD.EXE" DebugInfoCommandLine="/x" AddItemTemplatesGuid="{51063C3A-E220-4D12-8922-BDA915ACD783}" />
-        <Host Name="Word" GeneratedCodeNamespace="KhmerWEPPLunarAddIn" IconIndex="0">
+        <ProjectProperties HostName="Excel" HostPackage="{29A7B9D7-A7F1-4328-8EF0-6B2D1A56B2C1}" OfficeVersion="15.0" VstxVersion="4.0" ApplicationType="Excel" Language="cs" TemplatesPath="" DebugInfoExeName="#Software\Microsoft\Office\16.0\Excel\InstallRoot\Path#excel.exe" DebugInfoCommandLine="/x" AddItemTemplatesGuid="{51063C3A-E220-4D12-8922-BDA915ACD783}" />
+        <Host Name="Excel" GeneratedCodeNamespace="KhmerWEPPLunarAddIn.Excel" IconIndex="0">
           <HostItem Name="ThisAddIn" Code="ThisAddIn.cs" CanonicalName="AddIn" CanActivate="false" IconIndex="1" Blueprint="ThisAddIn.Designer.xml" GeneratedCode="ThisAddIn.Designer.cs" />
         </Host>
       </FlavorProperties>

@@ -1,29 +1,35 @@
-﻿using System;
+﻿using Microsoft.Office.Interop.Word;
+using Microsoft.Office.Tools;
+using Microsoft.Office.Tools.Word;
+using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Xml.Linq;
-using Word = Microsoft.Office.Interop.Word;
 using Office = Microsoft.Office.Core;
-using Microsoft.Office.Tools.Word;
-using Microsoft.Office.Tools;
-using Microsoft.Win32;
+using Word = Microsoft.Office.Interop.Word;
 
 namespace KhmerWEPPLunarAddIn
 {
 	public partial class ThisAddIn
 	{
 		public CustomTaskPane taskpane;
-		private WEPP_Sidepane userControl;
 		private void ThisAddIn_Startup(object sender, System.EventArgs e)
 		{
 			SetBrowserEmulationToIE11();
 
-			userControl = new WEPP_Sidepane();
-			taskpane = this.CustomTaskPanes.Add(userControl, "ប្រតិទិនចន្ទគតិ");
-			taskpane.Width = 352;
-			taskpane.DockPosition = Office.MsoCTPDockPosition.msoCTPDockPositionRight;
-			taskpane.Visible = false;
+			//userControl = new WEPP_Sidepane();
+			//taskpane = this.CustomTaskPanes.Add(userControl, "ប្រតិទិនចន្ទគតិ");
+			//taskpane.Width = 352;
+			//taskpane.DockPosition = Office.MsoCTPDockPosition.msoCTPDockPositionRight;
+			//taskpane.Visible = false;
+
+			var bridge = new WordBridge();
+			// Pass the Word implementation into the shared UserControl
+			var userControl = new KhmerWEPPLunarAddIn.Shared.WEPP_Sidepane(bridge);
+			var taskPane = this.CustomTaskPanes.Add(userControl, "ប្រតិទិនចន្ទគតិ");
+			taskPane.Visible = true;
 		}
 
 		private void SetBrowserEmulationToIE11()
