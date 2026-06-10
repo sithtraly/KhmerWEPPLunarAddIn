@@ -46,7 +46,6 @@
 			this.weppTab.ControlId.ControlIdType = Microsoft.Office.Tools.Ribbon.RibbonControlIdType.Office;
 			this.weppTab.ControlId.OfficeId = "TabHome";
 			this.weppTab.Groups.Add(this.group1);
-			this.weppTab.Label = "TabHome";
 			this.weppTab.Name = "weppTab";
 			// 
 			// group1
