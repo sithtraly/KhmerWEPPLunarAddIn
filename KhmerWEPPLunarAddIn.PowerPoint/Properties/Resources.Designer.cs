@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace KhmerWEPPLunarAddIn.Excel.Properties {
+namespace KhmerWEPPLunarAddIn.PowerPoint.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace KhmerWEPPLunarAddIn.Excel.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("KhmerWEPPLunarAddIn.Excel.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("KhmerWEPPLunarAddIn.PowerPoint.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

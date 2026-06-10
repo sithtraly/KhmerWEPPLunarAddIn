@@ -16,6 +16,7 @@ namespace KhmerWEPPLunarAddIn
 
 		private void BtOpenSidepane_Click(object sender, RibbonControlEventArgs e)
 		{
+			Globals.ThisAddIn.taskpane.Width = 420;
 			Globals.ThisAddIn.taskpane.Visible = true;
 		}
 	}

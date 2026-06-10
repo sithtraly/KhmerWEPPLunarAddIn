@@ -5,7 +5,9 @@
     <title>Khmer Lunar Calendar</title>
 </head>
 <body>
-    <div id="my-picker"></div>
+    <div style="text-align: center;">
+        <div id="my-picker"></div>
+    </div>
     <div style="text-align: center;">
         <button onclick="convert()">បម្លែង</button>
     </div>
@@ -771,7 +773,8 @@
             return new KhmerCalendars(new Date(date)).calendars().BuddhistCalendar.dateString;
         }
 
-        function getSolarDate(date) {;
+        function getSolarDate(date) {
+            ;
             return new KhmerCalendars(new Date(date)).calendars().GregorianCalendar.dateString;
         }
 

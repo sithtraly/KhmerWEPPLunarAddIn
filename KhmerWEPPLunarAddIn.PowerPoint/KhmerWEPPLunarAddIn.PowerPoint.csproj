@@ -21,11 +21,11 @@
     <ProjectTypeGuids>{BAA0C2D2-18E2-41B9-852F-F413020CAA33};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E57EAF57-8273-44EB-AF5D-4B89AC3C590D}</ProjectGuid>
+    <ProjectGuid>{9F7EC489-FAEC-4CCA-9CB0-17FACB686C7C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
-    <RootNamespace>KhmerWEPPLunarAddIn.Excel</RootNamespace>
-    <AssemblyName>KhmerWEPPLunarAddIn.Excel</AssemblyName>
+    <RootNamespace>KhmerWEPPLunarAddIn.PowerPoint</RootNamespace>
+    <AssemblyName>KhmerWEPPLunarAddIn.PowerPoint</AssemblyName>
     <LoadBehavior>3</LoadBehavior>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <DefineConstants>VSTO40</DefineConstants>
@@ -45,7 +45,7 @@
       OfficeApplication
         Add-in host application
     -->
-    <OfficeApplication>Excel</OfficeApplication>
+    <OfficeApplication>PowerPoint</OfficeApplication>
   </PropertyGroup>
   <!--
     This section defines properties that are set when the "Debug" configuration is selected.
@@ -124,9 +124,6 @@
     <Reference Include="Microsoft.Office.Tools.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <Private>False</Private>
     </Reference>
-    <Reference Include="Microsoft.Office.Tools.Excel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <Private>False</Private>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Office.Tools.Common.v4.0.Utilities, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
@@ -140,7 +137,7 @@
           <Private>False</Private>
           <EmbedInteropTypes>true</EmbedInteropTypes>
         </Reference>
-        <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+        <Reference Include="Microsoft.Office.Interop.PowerPoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
           <Private>False</Private>
           <EmbedInteropTypes>true</EmbedInteropTypes>
         </Reference>
@@ -157,10 +154,10 @@
           <Isolated>False</Isolated>
           <EmbedInteropTypes>true</EmbedInteropTypes>
         </COMReference>
-        <COMReference Include="Microsoft.Office.Interop.Excel">
-          <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
-          <VersionMajor>1</VersionMajor>
-          <VersionMinor>8</VersionMinor>
+        <COMReference Include="Microsoft.Office.Interop.PowerPoint">
+          <Guid>{91493440-5A91-11CF-8700-00AA0060263B}</Guid>
+          <VersionMajor>2</VersionMajor>
+          <VersionMinor>11</VersionMinor>
           <Lcid>0</Lcid>
           <WrapperTool>tlbimp</WrapperTool>
           <Isolated>False</Isolated>
@@ -185,15 +182,9 @@
     can be found.
   -->
   <ItemGroup>
-    <Compile Include="ExcelBridge.cs" />
+    <Compile Include="PowerPointBridge.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="WEPP_RibbonExcel.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="WEPP_RibbonExcel.Designer.cs">
-      <DependentUpon>WEPP_RibbonExcel.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -205,10 +196,10 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="WEPP_RibbonExcel.resx">
-      <DependentUpon>WEPP_RibbonExcel.cs</DependentUpon>
+    <EmbeddedResource Include="Ribbon1.resx">
+      <DependentUpon>Ribbon1.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="KhmerWEPPLunarAddIn.Excel_TemporaryKey.pfx" />
+    <None Include="KhmerWEPPLunarAddIn.PowerPoint_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -216,6 +207,12 @@
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Ribbon1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Ribbon1.Designer.cs">
+      <DependentUpon>Ribbon1.cs</DependentUpon>
     </Compile>
     <Compile Include="ThisAddIn.cs">
       <SubType>Code</SubType>
@@ -246,10 +243,10 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>KhmerWEPPLunarAddIn.Excel_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>KhmerWEPPLunarAddIn.PowerPoint_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>7B3296C56A2BC6A1F89D6C750832A76EB9C4A6F9</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>DDBD6491B8E40C4A40FC0D8A8089A1BA141F0B6A</ManifestCertificateThumbprint>
   </PropertyGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- Include additional build rules for an Office application add-in. -->
@@ -258,8 +255,8 @@
   <ProjectExtensions>
     <VisualStudio>
       <FlavorProperties GUID="{BAA0C2D2-18E2-41B9-852F-F413020CAA33}">
-        <ProjectProperties HostName="Excel" HostPackage="{29A7B9D7-A7F1-4328-8EF0-6B2D1A56B2C1}" OfficeVersion="15.0" VstxVersion="4.0" ApplicationType="Excel" Language="cs" TemplatesPath="" DebugInfoExeName="#Software\Microsoft\Office\16.0\Excel\InstallRoot\Path#excel.exe" DebugInfoCommandLine="/x" AddItemTemplatesGuid="{51063C3A-E220-4D12-8922-BDA915ACD783}" />
-        <Host Name="Excel" GeneratedCodeNamespace="KhmerWEPPLunarAddIn.Excel" IconIndex="0">
+        <ProjectProperties HostName="PowerPoint" HostPackage="{29A7B9D7-A7F1-4328-8EF0-6B2D1A56B2C1}" OfficeVersion="15.0" VstxVersion="4.0" ApplicationType="PowerPoint" Language="cs" TemplatesPath="" DebugInfoExeName="#Software\Microsoft\Office\16.0\PowerPoint\InstallRoot\Path#powerpnt.exe" AddItemTemplatesGuid="{51063C3A-E220-4D12-8922-BDA915ACD783}" />
+        <Host Name="PowerPoint" GeneratedCodeNamespace="KhmerWEPPLunarAddIn.PowerPoint" IconIndex="0">
           <HostItem Name="ThisAddIn" Code="ThisAddIn.cs" CanonicalName="AddIn" CanActivate="false" IconIndex="1" Blueprint="ThisAddIn.Designer.xml" GeneratedCode="ThisAddIn.Designer.cs" />
         </Host>
       </FlavorProperties>

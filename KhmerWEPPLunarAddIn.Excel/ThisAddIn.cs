@@ -20,7 +20,8 @@ namespace KhmerWEPPLunarAddIn.Excel
 			// Pass the Excel implementation into the same shared UserControl!
 			var userControl = new KhmerWEPPLunarAddIn.Shared.WEPP_Sidepane(bridge);
 			var taskPane = this.CustomTaskPanes.Add(userControl, "ប្រតិទិនចន្ទគតិ");
-			taskPane.Visible = true;
+			taskPane.Visible = false;
+			this.taskpane = taskPane;
 		}
 
 		private void ThisAddIn_Shutdown(object sender, System.EventArgs e)
