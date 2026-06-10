@@ -1,13 +1,4 @@
-﻿using Microsoft.Office.Tools.Excel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Xml.Linq;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
-using Excel = Microsoft.Office.Interop.Excel;
-using Office = Microsoft.Office.Core;
-using Microsoft.Office.Tools;
+﻿using Microsoft.Office.Tools;
 
 namespace KhmerWEPPLunarAddIn.Excel
 {

@@ -1,7 +1,5 @@
 ﻿using KhmerWEPPLunarAddIn.Shared;
 using Microsoft.Office.Interop.Excel;
-using System;
-using System.Windows;
 
 namespace KhmerWEPPLunarAddIn.Excel
 {

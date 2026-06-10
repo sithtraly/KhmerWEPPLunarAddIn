@@ -1,14 +1,6 @@
-﻿using Microsoft.Office.Interop.Word;
-using Microsoft.Office.Tools;
-using Microsoft.Office.Tools.Word;
+﻿using Microsoft.Office.Tools;
 using Microsoft.Win32;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Xml.Linq;
-using Office = Microsoft.Office.Core;
-using Word = Microsoft.Office.Interop.Word;
 
 namespace KhmerWEPPLunarAddIn
 {
@@ -29,7 +21,8 @@ namespace KhmerWEPPLunarAddIn
 			// Pass the Word implementation into the shared UserControl
 			var userControl = new KhmerWEPPLunarAddIn.Shared.WEPP_Sidepane(bridge);
 			var taskPane = this.CustomTaskPanes.Add(userControl, "ប្រតិទិនចន្ទគតិ");
-			taskPane.Visible = true;
+			taskPane.Visible = false;
+			this.taskpane = taskPane;
 		}
 
 		private void SetBrowserEmulationToIE11()
@@ -41,7 +34,9 @@ namespace KhmerWEPPLunarAddIn
 				{
 					key?.SetValue("WINWORD.EXE", 11001, RegistryValueKind.DWord);
 				}
-			} catch (Exception ex) {
+			}
+			catch (Exception ex)
+			{
 				System.Diagnostics.Debug.WriteLine("Registry fix failed: " + ex.Message);
 			}
 		}

@@ -1,9 +1,4 @@
-﻿using Microsoft.Office.Tools;
-using Microsoft.Office.Tools.Ribbon;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using Microsoft.Office.Tools.Ribbon;
 
 namespace KhmerWEPPLunarAddIn
 {
@@ -16,7 +11,7 @@ namespace KhmerWEPPLunarAddIn
 
 		private void BtOpenSidepane_Click(object sender, RibbonControlEventArgs e)
 		{
-			Globals.ThisAddIn.taskpane.Width = 420;
+			Globals.ThisAddIn.taskpane.Width = 410;
 			Globals.ThisAddIn.taskpane.Visible = true;
 		}
 	}
