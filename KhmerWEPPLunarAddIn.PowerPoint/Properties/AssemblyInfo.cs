@@ -1,13 +1,14 @@
-﻿using System.Reflection;
+﻿using System.Resources;
+using System.Reflection;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("KhmerWEPPLunarAddIn.PowerPoint")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Use to input Khmer Lunar and Solar date to Word, Excel and PowerPoint")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Traly")]
 [assembly: AssemblyProduct("KhmerWEPPLunarAddIn.PowerPoint")]
 [assembly: AssemblyCopyright("Copyright ©  2026")]
 [assembly: AssemblyTrademark("")]
@@ -33,4 +34,4 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
-
+[assembly: NeutralResourcesLanguage("km")]

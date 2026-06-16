@@ -1,5 +1,7 @@
 <Solution>
-  <Project Path="AddinSetup/AddinSetup.vdproj" Type="Installer" />
+  <Project Path="AddinSetup/AddinSetup.vdproj" Type="Installer">
+    <Build />
+  </Project>
   <Project Path="KhmerWEPPLunarAddIn.csproj" Id="329e10de-d353-44b1-b85a-980f522c7f88" />
   <Project Path="KhmerWEPPLunarAddIn.Excel/KhmerWEPPLunarAddIn.Excel.csproj" Id="e57eaf57-8273-44eb-af5d-4b89ac3c590d" />
   <Project Path="KhmerWEPPLunarAddIn.PowerPoint/KhmerWEPPLunarAddIn.PowerPoint.csproj" Id="9f7ec489-faec-4cca-9cb0-17facb686c7c" />

@@ -15,14 +15,14 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_0B6740CC211039B8CAC2729BF758F7FB"
-        "OwnerKey" = "8:_6C13EA3081A04CB585F7DCB8007C166F"
+        "MsmKey" = "8:_0109CEB05B8344819E927ADEC9BB39B0"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_0B6740CC211039B8CAC2729BF758F7FB"
-        "OwnerKey" = "8:_9F7AC471B81C4C1EA1F443AE0EA98029"
+        "OwnerKey" = "8:_6C13EA3081A04CB585F7DCB8007C166F"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -35,6 +35,12 @@
         {
         "MsmKey" = "8:_0B6740CC211039B8CAC2729BF758F7FB"
         "OwnerKey" = "8:_B17BBB05B5854B699D00143A592F434D"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0B6740CC211039B8CAC2729BF758F7FB"
+        "OwnerKey" = "8:_9F7AC471B81C4C1EA1F443AE0EA98029"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -52,12 +58,6 @@
         "Entry"
         {
         "MsmKey" = "8:_208323B14633A7707F96C7D38D1AC62F"
-        "OwnerKey" = "8:_9F7AC471B81C4C1EA1F443AE0EA98029"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_208323B14633A7707F96C7D38D1AC62F"
         "OwnerKey" = "8:_2473712DFDE6EBFE031EC3503C443FD6"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -65,6 +65,12 @@
         {
         "MsmKey" = "8:_208323B14633A7707F96C7D38D1AC62F"
         "OwnerKey" = "8:_B17BBB05B5854B699D00143A592F434D"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_208323B14633A7707F96C7D38D1AC62F"
+        "OwnerKey" = "8:_9F7AC471B81C4C1EA1F443AE0EA98029"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -88,13 +94,13 @@
         "Entry"
         {
         "MsmKey" = "8:_20EAB173094241BAA70B10280F6B7D34"
-        "OwnerKey" = "8:_9F7AC471B81C4C1EA1F443AE0EA98029"
+        "OwnerKey" = "8:_B17BBB05B5854B699D00143A592F434D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_20EAB173094241BAA70B10280F6B7D34"
-        "OwnerKey" = "8:_B17BBB05B5854B699D00143A592F434D"
+        "OwnerKey" = "8:_9F7AC471B81C4C1EA1F443AE0EA98029"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -136,13 +142,13 @@
         "Entry"
         {
         "MsmKey" = "8:_3105B949EF3F2A04B1EBE07737458959"
-        "OwnerKey" = "8:_9F7AC471B81C4C1EA1F443AE0EA98029"
+        "OwnerKey" = "8:_B17BBB05B5854B699D00143A592F434D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_3105B949EF3F2A04B1EBE07737458959"
-        "OwnerKey" = "8:_B17BBB05B5854B699D00143A592F434D"
+        "OwnerKey" = "8:_9F7AC471B81C4C1EA1F443AE0EA98029"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -154,13 +160,13 @@
         "Entry"
         {
         "MsmKey" = "8:_3490DCA98ADFDE5DEB714A6AC819B269"
-        "OwnerKey" = "8:_9F7AC471B81C4C1EA1F443AE0EA98029"
+        "OwnerKey" = "8:_B17BBB05B5854B699D00143A592F434D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_3490DCA98ADFDE5DEB714A6AC819B269"
-        "OwnerKey" = "8:_B17BBB05B5854B699D00143A592F434D"
+        "OwnerKey" = "8:_9F7AC471B81C4C1EA1F443AE0EA98029"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -244,25 +250,13 @@
         "Entry"
         {
         "MsmKey" = "8:_FC014B278CF4C593F0E2362249EB333B"
-        "OwnerKey" = "8:_9F7AC471B81C4C1EA1F443AE0EA98029"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_FC014B278CF4C593F0E2362249EB333B"
         "OwnerKey" = "8:_B17BBB05B5854B699D00143A592F434D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_FC014B278CF4C593F0E2362249EB333B"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_9725316B4493A14B8DCFD24EA4B07A81"
+        "MsmKey" = "8:_FC014B278CF4C593F0E2362249EB333B"
+        "OwnerKey" = "8:_9F7AC471B81C4C1EA1F443AE0EA98029"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -280,12 +274,6 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_9F7AC471B81C4C1EA1F443AE0EA98029"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_B17BBB05B5854B699D00143A592F434D"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -298,7 +286,19 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_9F7AC471B81C4C1EA1F443AE0EA98029"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_6C13EA3081A04CB585F7DCB8007C166F"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_9725316B4493A14B8DCFD24EA4B07A81"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -337,6 +337,12 @@
         "OwnerKey" = "8:_208323B14633A7707F96C7D38D1AC62F"
         "MsmSig" = "8:_UNDEFINED"
         }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_FC014B278CF4C593F0E2362249EB333B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -355,13 +361,29 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
         "Release"
         {
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:Release\\WEPP Addin Setup.msi"
+        "OutputFilename" = "8:Release\\WEPP Lunar Addin Setup.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -371,6 +393,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -400,6 +438,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0109CEB05B8344819E927ADEC9BB39B0"
+            {
+            "SourcePath" = "8:C:\\Users\\LYHENG\\Downloads\\icon-80.ico"
+            "TargetName" = "8:icon-80.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_F71381B4148D465F95502EDA532C59EB"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_0B6740CC211039B8CAC2729BF758F7FB"
             {
             "AssemblyRegister" = "3:1"
@@ -693,11 +751,6 @@
             "AssemblyAsmDisplayName" = "8:KhmerWEPPLunarAddIn.Shared, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_9725316B4493A14B8DCFD24EA4B07A81"
-                    {
-                    "Name" = "8:KhmerWEPPLunarAddIn.Shared.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:KhmerWEPPLunarAddIn.Shared.dll"
             "TargetName" = "8:"
@@ -885,26 +938,26 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:AddinSetup"
-        "ProductCode" = "8:{13D4B30E-F20C-4534-BE9A-8D349FA5F5E0}"
-        "PackageCode" = "8:{5DC30F16-8463-4192-B8EC-220EA8226078}"
+        "ProductName" = "8:WEPP Lunar Addin"
+        "ProductCode" = "8:{896DDA31-0AA3-460A-B0C2-A12416569232}"
+        "PackageCode" = "8:{F7CFE667-77BD-4D73-BE0E-87A58C17F7DC}"
         "UpgradeCode" = "8:{0C011859-7AF4-4B00-BF1B-C90BF172BF8A}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
-        "RemovePreviousVersions" = "11:FALSE"
+        "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:LYHENG"
-        "ARPHELPTELEPHONE" = "8:"
-        "ARPHELPLINK" = "8:"
-        "Title" = "8:AddinSetup"
+        "ProductVersion" = "8:1.0.4"
+        "Manufacturer" = "8:Traly"
+        "ARPHELPTELEPHONE" = "8:+855967997357"
+        "ARPHELPLINK" = "8:https://t.me/TralySITH"
+        "Title" = "8:WEPP Lunar Addin"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:LYHENG"
-        "Keywords" = "8:"
-        "ARPCOMMENTS" = "8:"
+        "ARPCONTACT" = "8:TRALY"
+        "Keywords" = "8:WEPP, Word, Excel, PowerPoint, Office, Lunar"
+        "ARPCOMMENTS" = "8:Use to input Khmer Lunar and Solar date to Word, Excel and PowerPoint"
         "ARPURLINFOABOUT" = "8:"
-        "ARPPRODUCTICON" = "8:"
+        "ARPPRODUCTICON" = "8:_0109CEB05B8344819E927ADEC9BB39B0"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"

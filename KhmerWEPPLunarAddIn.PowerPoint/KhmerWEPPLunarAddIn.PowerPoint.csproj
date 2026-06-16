@@ -234,6 +234,10 @@
   <ItemGroup>
     <None Include="Resources\icon-80.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon-80.ico" />
+    <Content Include="Iconsmind-Outline-Timer-2.48 %281%29.ico" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -247,6 +251,9 @@
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>DDBD6491B8E40C4A40FC0D8A8089A1BA141F0B6A</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon-80.ico</ApplicationIcon>
   </PropertyGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- Include additional build rules for an Office application add-in. -->

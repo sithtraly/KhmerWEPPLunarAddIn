@@ -237,6 +237,9 @@
   <ItemGroup>
     <None Include="Resources\icon-80.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon-80.ico" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -250,6 +253,9 @@
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>7B3296C56A2BC6A1F89D6C750832A76EB9C4A6F9</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon-80.ico</ApplicationIcon>
   </PropertyGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- Include additional build rules for an Office application add-in. -->
