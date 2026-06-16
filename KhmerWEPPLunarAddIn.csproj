@@ -251,7 +251,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon-80.ico" />
-    <Content Include="Iconsmind-Outline-Timer-2.48 %281%29.ico" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
