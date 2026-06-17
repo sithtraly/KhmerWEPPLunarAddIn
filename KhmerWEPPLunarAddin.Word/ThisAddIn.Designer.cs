@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 #pragma warning disable 414
-namespace KhmerWEPPLunarAddIn {
+namespace KhmerWEPPLunarAddin.Word {
     
     
     /// 

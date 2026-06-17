@@ -1,6 +1,6 @@
 ﻿using KhmerWEPPLunarAddIn.Shared;
 
-namespace KhmerWEPPLunarAddIn
+namespace KhmerWEPPLunarAddin.Word
 {
 	public class WordBridge : IOfficeBridge
 	{

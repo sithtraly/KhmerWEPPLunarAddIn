@@ -1,4 +1,4 @@
-﻿namespace KhmerWEPPLunarAddIn.PowerPoint
+﻿namespace KhmerWEPPLunarAddin.Word
 {
 	partial class Ribbon1 : Microsoft.Office.Tools.Ribbon.RibbonBase
 	{
@@ -34,31 +34,32 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ribbon1));
 			this.tab1 = this.Factory.CreateRibbonTab();
-			this.GroupHome = this.Factory.CreateRibbonGroup();
+			this.group1 = this.Factory.CreateRibbonGroup();
 			this.button1 = this.Factory.CreateRibbonButton();
 			this.tab1.SuspendLayout();
-			this.GroupHome.SuspendLayout();
+			this.group1.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// tab1
 			// 
 			this.tab1.ControlId.ControlIdType = Microsoft.Office.Tools.Ribbon.RibbonControlIdType.Office;
 			this.tab1.ControlId.OfficeId = "TabHome";
-			this.tab1.Groups.Add(this.GroupHome);
-			this.tab1.Label = "TabHome";
+			this.tab1.Groups.Add(this.group1);
 			this.tab1.Name = "tab1";
+			this.tab1.Position = this.Factory.RibbonPosition.AfterOfficeId("GroupEditing");
 			// 
-			// GroupHome
+			// group1
 			// 
-			this.GroupHome.Items.Add(this.button1);
-			this.GroupHome.Label = "ប្រតិទិន";
-			this.GroupHome.Name = "GroupHome";
+			this.group1.Items.Add(this.button1);
+			this.group1.Label = "ប្រតិទិន";
+			this.group1.Name = "group1";
 			// 
 			// button1
 			// 
 			this.button1.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
-			this.button1.Image = global::KhmerWEPPLunarAddIn.PowerPoint.Properties.Resources.icon_80;
+			this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
 			this.button1.Label = "ចន្ទគតិ";
 			this.button1.Name = "button1";
 			this.button1.ShowImage = true;
@@ -67,13 +68,13 @@
 			// Ribbon1
 			// 
 			this.Name = "Ribbon1";
-			this.RibbonType = "Microsoft.PowerPoint.Presentation";
+			this.RibbonType = "Microsoft.Word.Document";
 			this.Tabs.Add(this.tab1);
 			this.Load += new Microsoft.Office.Tools.Ribbon.RibbonUIEventHandler(this.Ribbon1_Load);
 			this.tab1.ResumeLayout(false);
 			this.tab1.PerformLayout();
-			this.GroupHome.ResumeLayout(false);
-			this.GroupHome.PerformLayout();
+			this.group1.ResumeLayout(false);
+			this.group1.PerformLayout();
 			this.ResumeLayout(false);
 
 		}
@@ -81,7 +82,7 @@
 		#endregion
 
 		internal Microsoft.Office.Tools.Ribbon.RibbonTab tab1;
-		internal Microsoft.Office.Tools.Ribbon.RibbonGroup GroupHome;
+		internal Microsoft.Office.Tools.Ribbon.RibbonGroup group1;
 		internal Microsoft.Office.Tools.Ribbon.RibbonButton button1;
 	}
 

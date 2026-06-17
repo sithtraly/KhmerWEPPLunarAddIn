@@ -22,18 +22,6 @@
         "Entry"
         {
         "MsmKey" = "8:_0B6740CC211039B8CAC2729BF758F7FB"
-        "OwnerKey" = "8:_6C13EA3081A04CB585F7DCB8007C166F"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_0B6740CC211039B8CAC2729BF758F7FB"
-        "OwnerKey" = "8:_2473712DFDE6EBFE031EC3503C443FD6"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_0B6740CC211039B8CAC2729BF758F7FB"
         "OwnerKey" = "8:_B17BBB05B5854B699D00143A592F434D"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -47,6 +35,24 @@
         {
         "MsmKey" = "8:_0B6740CC211039B8CAC2729BF758F7FB"
         "OwnerKey" = "8:_E54BB4224E6968556B1F3BD17728ABA9"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0B6740CC211039B8CAC2729BF758F7FB"
+        "OwnerKey" = "8:_4DC4D28A91B44726998484132BEA67D0"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0B6740CC211039B8CAC2729BF758F7FB"
+        "OwnerKey" = "8:_2473712DFDE6EBFE031EC3503C443FD6"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1A0D7217317B4CCFBE8D22C0EBA718C2"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -58,18 +64,6 @@
         "Entry"
         {
         "MsmKey" = "8:_208323B14633A7707F96C7D38D1AC62F"
-        "OwnerKey" = "8:_2473712DFDE6EBFE031EC3503C443FD6"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_208323B14633A7707F96C7D38D1AC62F"
-        "OwnerKey" = "8:_B17BBB05B5854B699D00143A592F434D"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_208323B14633A7707F96C7D38D1AC62F"
         "OwnerKey" = "8:_9F7AC471B81C4C1EA1F443AE0EA98029"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -82,7 +76,19 @@
         "Entry"
         {
         "MsmKey" = "8:_208323B14633A7707F96C7D38D1AC62F"
-        "OwnerKey" = "8:_6C13EA3081A04CB585F7DCB8007C166F"
+        "OwnerKey" = "8:_4DC4D28A91B44726998484132BEA67D0"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_208323B14633A7707F96C7D38D1AC62F"
+        "OwnerKey" = "8:_2473712DFDE6EBFE031EC3503C443FD6"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_208323B14633A7707F96C7D38D1AC62F"
+        "OwnerKey" = "8:_B17BBB05B5854B699D00143A592F434D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -94,19 +100,19 @@
         "Entry"
         {
         "MsmKey" = "8:_20EAB173094241BAA70B10280F6B7D34"
-        "OwnerKey" = "8:_B17BBB05B5854B699D00143A592F434D"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_20EAB173094241BAA70B10280F6B7D34"
         "OwnerKey" = "8:_9F7AC471B81C4C1EA1F443AE0EA98029"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_20EAB173094241BAA70B10280F6B7D34"
-        "OwnerKey" = "8:_6C13EA3081A04CB585F7DCB8007C166F"
+        "OwnerKey" = "8:_4DC4D28A91B44726998484132BEA67D0"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_20EAB173094241BAA70B10280F6B7D34"
+        "OwnerKey" = "8:_B17BBB05B5854B699D00143A592F434D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -136,12 +142,6 @@
         "Entry"
         {
         "MsmKey" = "8:_3105B949EF3F2A04B1EBE07737458959"
-        "OwnerKey" = "8:_6C13EA3081A04CB585F7DCB8007C166F"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_3105B949EF3F2A04B1EBE07737458959"
         "OwnerKey" = "8:_B17BBB05B5854B699D00143A592F434D"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -153,8 +153,8 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_3490DCA98ADFDE5DEB714A6AC819B269"
-        "OwnerKey" = "8:_6C13EA3081A04CB585F7DCB8007C166F"
+        "MsmKey" = "8:_3105B949EF3F2A04B1EBE07737458959"
+        "OwnerKey" = "8:_4DC4D28A91B44726998484132BEA67D0"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -171,26 +171,14 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_43F4F2EF90CC4FF09860AF93404F5F8D"
-        "OwnerKey" = "8:_UNDEFINED"
+        "MsmKey" = "8:_3490DCA98ADFDE5DEB714A6AC819B269"
+        "OwnerKey" = "8:_4DC4D28A91B44726998484132BEA67D0"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_4EB6522A0CAA44A8ACD680105D48A63C"
+        "MsmKey" = "8:_4DC4D28A91B44726998484132BEA67D0"
         "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_6C13EA3081A04CB585F7DCB8007C166F"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_9725316B4493A14B8DCFD24EA4B07A81"
-        "OwnerKey" = "8:_6C13EA3081A04CB585F7DCB8007C166F"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -203,6 +191,12 @@
         {
         "MsmKey" = "8:_9725316B4493A14B8DCFD24EA4B07A81"
         "OwnerKey" = "8:_9F7AC471B81C4C1EA1F443AE0EA98029"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_9725316B4493A14B8DCFD24EA4B07A81"
+        "OwnerKey" = "8:_4DC4D28A91B44726998484132BEA67D0"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -231,6 +225,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_D2E3C9545F5C4423B553561F6FAB6512"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_E4ED7E35C18342EEB6764D4FB7A93688"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -238,13 +238,7 @@
         "Entry"
         {
         "MsmKey" = "8:_E54BB4224E6968556B1F3BD17728ABA9"
-        "OwnerKey" = "8:_6C13EA3081A04CB585F7DCB8007C166F"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_FC014B278CF4C593F0E2362249EB333B"
-        "OwnerKey" = "8:_6C13EA3081A04CB585F7DCB8007C166F"
+        "OwnerKey" = "8:_4DC4D28A91B44726998484132BEA67D0"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -261,8 +255,32 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_FC014B278CF4C593F0E2362249EB333B"
+        "OwnerKey" = "8:_4DC4D28A91B44726998484132BEA67D0"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_CD140097F6A44C27A3D502003E5B3FF9"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_9F7AC471B81C4C1EA1F443AE0EA98029"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_4DC4D28A91B44726998484132BEA67D0"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_E54BB4224E6968556B1F3BD17728ABA9"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -280,31 +298,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_2473712DFDE6EBFE031EC3503C443FD6"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_9F7AC471B81C4C1EA1F443AE0EA98029"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_6C13EA3081A04CB585F7DCB8007C166F"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_9725316B4493A14B8DCFD24EA4B07A81"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_E54BB4224E6968556B1F3BD17728ABA9"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -317,6 +311,12 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_20EAB173094241BAA70B10280F6B7D34"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_2473712DFDE6EBFE031EC3503C443FD6"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -487,6 +487,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1A0D7217317B4CCFBE8D22C0EBA718C2"
+            {
+            "SourcePath" = "8:..\\KhmerWEPPLunarAddin.Word\\bin\\Release\\KhmerWEPPLunarAddin.Word.vsto"
+            "TargetName" = "8:KhmerWEPPLunarAddin.Word.vsto"
+            "Tag" = "8:"
+            "Folder" = "8:_F71381B4148D465F95502EDA532C59EB"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_208323B14633A7707F96C7D38D1AC62F"
@@ -704,46 +724,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_43F4F2EF90CC4FF09860AF93404F5F8D"
-            {
-            "SourcePath" = "8:..\\bin\\Release\\KhmerWEPPLunarAddIn.vsto"
-            "TargetName" = "8:KhmerWEPPLunarAddIn.vsto"
-            "Tag" = "8:"
-            "Folder" = "8:_F71381B4148D465F95502EDA532C59EB"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4EB6522A0CAA44A8ACD680105D48A63C"
-            {
-            "SourcePath" = "8:..\\bin\\Release\\KhmerWEPPLunarAddIn.dll.manifest"
-            "TargetName" = "8:KhmerWEPPLunarAddIn.dll.manifest"
-            "Tag" = "8:"
-            "Folder" = "8:_F71381B4148D465F95502EDA532C59EB"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9725316B4493A14B8DCFD24EA4B07A81"
             {
             "AssemblyRegister" = "3:1"
@@ -751,6 +731,11 @@
             "AssemblyAsmDisplayName" = "8:KhmerWEPPLunarAddIn.Shared, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
+                    "_9725316B4493A14B8DCFD24EA4B07A81"
+                    {
+                    "Name" = "8:KhmerWEPPLunarAddIn.Shared.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
             "SourcePath" = "8:KhmerWEPPLunarAddIn.Shared.dll"
             "TargetName" = "8:"
@@ -799,6 +784,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D2E3C9545F5C4423B553561F6FAB6512"
+            {
+            "SourcePath" = "8:..\\KhmerWEPPLunarAddin.Word\\bin\\Release\\KhmerWEPPLunarAddin.Word.dll.manifest"
+            "TargetName" = "8:KhmerWEPPLunarAddin.Word.dll.manifest"
+            "Tag" = "8:"
+            "Folder" = "8:_F71381B4148D465F95502EDA532C59EB"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E4ED7E35C18342EEB6764D4FB7A93688"
@@ -939,15 +944,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:WEPP Lunar Addin"
-        "ProductCode" = "8:{896DDA31-0AA3-460A-B0C2-A12416569232}"
-        "PackageCode" = "8:{F7CFE667-77BD-4D73-BE0E-87A58C17F7DC}"
+        "ProductCode" = "8:{F2F3B9C4-9950-465E-BCE1-BF284F5F79B9}"
+        "PackageCode" = "8:{DF77F67B-9E06-4400-B4BA-8E93A1B536F1}"
         "UpgradeCode" = "8:{0C011859-7AF4-4B00-BF1B-C90BF172BF8A}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.4"
+        "ProductVersion" = "8:1.0.5"
         "Manufacturer" = "8:Traly"
         "ARPHELPTELEPHONE" = "8:+855967997357"
         "ARPHELPLINK" = "8:https://t.me/TralySITH"
@@ -963,7 +968,7 @@
         "UseSystemSearchPath" = "11:TRUE"
         "TargetPlatform" = "3:0"
         "PreBuildEvent" = "8:"
-        "PostBuildEvent" = "8:"
+        "PostBuildEvent" = "8:@echo off\r\nset V=1.0.5\r\nrename \"$(ProjectDir)\\Release\\WEPP Lunar Addin Setup.msi\" WEPPLunarAddinSetup_%V%.msi\r\necho \"Rename 'WEPP Lunar Addin Setup.msi' to 'WEPPLunarAddinSetup_%V%.msi'\""
         "RunPostBuildEvent" = "3:0"
         }
         "Registry"
@@ -1247,7 +1252,7 @@
                                                                     "Condition" = "8:"
                                                                     "Transitive" = "11:FALSE"
                                                                     "ValueTypes" = "3:1"
-                                                                    "Value" = "8:[TARGETDIR]KhmerWEPPLunarAddIn.vsto|vstolocal"
+                                                                    "Value" = "8:[TARGETDIR]KhmerWEPPLunarAddIn.Word.vsto|vstolocal"
                                                                     }
                                                                     "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_DD783F25941D4BB0BF87D29F6A4DD711"
                                                                     {
@@ -1709,9 +1714,9 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_6C13EA3081A04CB585F7DCB8007C166F"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_4DC4D28A91B44726998484132BEA67D0"
             {
-            "SourcePath" = "8:..\\obj\\Release\\KhmerWEPPLunarAddIn.dll"
+            "SourcePath" = "8:..\\KhmerWEPPLunarAddin.Word\\obj\\Release\\KhmerWEPPLunarAddin.Word.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_F71381B4148D465F95502EDA532C59EB"
@@ -1731,7 +1736,7 @@
             "ProjectOutputGroupRegister" = "3:1"
             "OutputConfiguration" = "8:"
             "OutputGroupCanonicalName" = "8:Built"
-            "OutputProjectGuid" = "8:{329E10DE-D353-44B1-B85A-980F522C7F88}"
+            "OutputProjectGuid" = "8:{F7CD4079-204C-4C6E-871A-87B786C105BD}"
             "ShowKeyOutput" = "11:TRUE"
                 "ExcludeFilters"
                 {

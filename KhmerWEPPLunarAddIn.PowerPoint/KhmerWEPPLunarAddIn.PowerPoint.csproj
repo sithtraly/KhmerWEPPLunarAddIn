@@ -229,6 +229,7 @@
     <ProjectReference Include="..\KhmerWEPPLunarAddIn.Shared\KhmerWEPPLunarAddIn.Shared.csproj">
       <Project>{67c21c19-1e7c-4dd1-b0ee-50c900720692}</Project>
       <Name>KhmerWEPPLunarAddIn.Shared</Name>
+      <Private>True</Private>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
